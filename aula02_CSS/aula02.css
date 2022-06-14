@@ -1,0 +1,53 @@
+body {
+    background-image: url("darwinWallpaper.jpg");
+    font-family: Arial;
+}
+
+header {
+    background: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+a {
+    display: inline-block;
+    height: 1.5vw;
+    width: 13vw;
+    background: rgb(140, 207, 152);
+    padding: 1vw;
+    margin: 0.5vw;
+}
+
+a:hover {
+    background-image: url("anaisWatterson.jpg");
+    color: #B0F;
+    font-weight: bold;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+section {
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 1vw;
+    width: 25vw;
+    vertical-align: top;
+}
+
+img[src^='gumball'] {
+    height: 2em;
+    vertical-align: middle;
+}
+
+h2 {
+    background: #F4FF00;
+    padding: 0.5vw;
+}
+
+img[src^='minhafoto'] {
+    box-sizing: border-box;
+    width: 25vw;
+}
